@@ -21,31 +21,34 @@ formulario.addEventListener('submit', function (event) {
     event.preventDefault();
     let nombre = document.getElementById('nombre').value;
     let apellido = document.getElementById('apellido').value;
+    let prefijo = document.getElementById('prefijo').value;
     let telefono = document.getElementById('telefono').value;
-    const email = document.getElementById('email').value;
+    let provincia = document.getElementById('provincia').value;
+    let email = document.getElementById('email').value;
 
-    if (!nombre || !apellido || !telefono || !email) {
+
+    if (!nombre || !apellido || !telefono || !email||!prefijo||!provincia){
         alert('Por favor, completa todos los campos.');
+        
     } else {
-        alert('Magnifico, hemos recibido tus datos! Pronto recibiras la informacion de los cursos!');
-        formulario.submit();
+        alert('Magnifico, hemos recibido tus datos! Pronto recibiras la informacion sobre el curso seleccionado!');
     }
+    formulario.submit();
+
 });
 
 
 document.getElementById('btnComprar1').addEventListener('click', function () {
     
-    alert('¡Excelente Elección! Completa tus datos y te enviaremos informacion de curso seleccionado.');
+    alert('¡Te interesa saber mas de Python?! Completa tus datos y te enviaremos informacion de este curso!.');
 });
 
 document.getElementById('btnComprar2').addEventListener('click', function () {
     
-    alert('¡Excelente Elección! Completa tus datos y te enviaremos informacion de curso seleccionado.');
+    alert('¡Te interesa saber mas de JavaScript?! Completa tus datos y te enviaremos informacion de este curso!');
 });
 
 document.getElementById('btnComprar3').addEventListener('click', function () {
     
-    alert('¡Excelente Elección! Completa tus datos y te enviaremos informacion de curso seleccionado.');
+    alert('¡Te interesa saber mas de Angular?! Completa tus datos y te enviaremos informacion sobre este curso!');
 });
-
-
