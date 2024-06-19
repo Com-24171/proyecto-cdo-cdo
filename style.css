@@ -531,11 +531,11 @@ footer div{
 }
 @media (max-width: 768px) {
     .navbar {
-      display: none; /* Oculta la barra de navegación */
+      display: none; 
     }
   
     .menu-desplegable {
-      display: block; /* Muestra el menú desplegable */
+      display: block; 
       background-color: #0033dc96;
       padding: 10px;
     }

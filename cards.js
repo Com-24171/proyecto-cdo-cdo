@@ -13,7 +13,7 @@ function cardCurso1() {
 
     let descripcion = document.createElement('p');
     descripcion.classList.add('card-text');
-    descripcion.textContent = '18hs. de clases online y acceso por 2 años para que lo puedas hacer y reveer las veces que quieras.'; // Descripción del producto
+    descripcion.textContent = '18hs. de clases online y acceso por 2 años para que lo puedas hacer y reveer las veces que quieras.'; 
 
     let precio = document.createElement('p');
     precio.classList.add('card-text');
@@ -48,7 +48,7 @@ function cardCurso2() {
 
     let descripcion = document.createElement('p');
     descripcion.classList.add('card-text');
-    descripcion.textContent = '140hs. de clases online y acceso ilimitado para que lo puedas hacer y reveer las veces que quieras.'; // Descripción del producto
+    descripcion.textContent = '140hs. de clases online y acceso ilimitado para que lo puedas hacer y reveer las veces que quieras.'; 
 
     let precio = document.createElement('p');
     precio.classList.add('card-text');
@@ -85,7 +85,7 @@ function cardCurso3() {
 
     let descripcion = document.createElement('p');
     descripcion.classList.add('card-text');
-    descripcion.textContent = '72hs. de clases online, acceso ilimitado mas descargas locales en video para que lo puedas hacer y reveer las veces que quieras.'; // Descripción del producto
+    descripcion.textContent = '72hs. de clases online, acceso ilimitado mas descargas locales en video para que lo puedas hacer y reveer las veces que quieras.';
 
     let precio = document.createElement('p');
     precio.classList.add('card-text');
@@ -159,7 +159,7 @@ function cardCurso5() {
 
     let descripcion = document.createElement('p');
     descripcion.classList.add('card-text');
-    descripcion.textContent = '140hs. de clases online y acceso ilimitado para que lo puedas hacer y reveer las veces que quieras.'; // Descripción del producto
+    descripcion.textContent = '140hs. de clases online y acceso ilimitado para que lo puedas hacer y reveer las veces que quieras.'; 
 
     let precio = document.createElement('p');
     precio.classList.add('card-text');
@@ -196,7 +196,7 @@ function cardCurso6() {
 
     let descripcion = document.createElement('p');
     descripcion.classList.add('card-text');
-    descripcion.textContent = '140hs. de clases online y acceso ilimitado para que lo puedas hacer y reveer las veces que quieras.'; // Descripción del producto
+    descripcion.textContent = '140hs. de clases online y acceso ilimitado para que lo puedas hacer y reveer las veces que quieras.';
 
     let precio = document.createElement('p');
     precio.classList.add('card-text');
