@@ -101,4 +101,13 @@ window.addEventListener('resize', toggleMenu);
 toggleMenu();
 
 
-/////////////////////////////////////////////////////////////////////////
+const radioButtons = document.querySelectorAll('input[type="radio"]');
+
+radioButtons.forEach(radio => {
+    radio.addEventListener('change', function() {
+        radioButtons.forEach(rb => {
+            rb.checked = false;
+            });
+            this.checked = true;
+    });
+});
